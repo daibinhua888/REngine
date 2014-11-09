@@ -6,7 +6,7 @@ Rule Engine
 AppSetting配置：<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;appSettings&gt;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;add key="XExtractor.RulefilesPath" value="E:\rules"/&gt;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;add key="XExtractor.ThrowExceptionIfNotfoundRule" value="1"/&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;add key="XExtractor.ThrowExceptionIfNotfoundRule" value="1"/&gt;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/appSettings&gt;<br />
 	<br />
 规则文件(*.rule)定义如下：<br />
