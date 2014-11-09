@@ -3,8 +3,8 @@ REngine
 
 Rule Engine
 
-AppSetting≈‰÷√£∫
-	<appSettings>
+AppSetting≈‰÷√£∫<br />
+	&lt;appSettings&gt;
 		<add key="XExtractor.RulefilesPath" value="E:\rules"/>
 		<!--<add key="XExtractor.ThrowExceptionIfNotfoundRule" value="1"/>-->
 	</appSettings>
