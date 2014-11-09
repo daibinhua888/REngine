@@ -1,0 +1,6 @@
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\XExtractor\bin\Debug\Scripts\underscore-min.js
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\XExtractor\bin\Debug\XExtractor.dll
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\XExtractor\bin\Debug\XExtractor.pdb
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\XExtractor\bin\Debug\Noesis.Javascript.dll
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\XExtractor\obj\Debug\XExtractor.dll
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\XExtractor\obj\Debug\XExtractor.pdb

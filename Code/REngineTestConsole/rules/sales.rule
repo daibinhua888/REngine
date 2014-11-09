@@ -1,0 +1,8 @@
+﻿#region sales
+	rule default
+		return 1;
+	end rule
+	rule companyId-100
+		return 0.8;
+	end rule
+#endregion

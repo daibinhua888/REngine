@@ -1,0 +1,14 @@
+E:\Projects\REngine\XExtractor\bin\Debug\Scripts\underscore-min.js
+E:\Projects\REngine\XExtractor\bin\Debug\REngine.dll
+E:\Projects\REngine\XExtractor\bin\Debug\REngine.pdb
+E:\Projects\REngine\XExtractor\bin\Debug\Noesis.Javascript.dll
+E:\Projects\REngine\XExtractor\obj\Debug\REngine.csprojResolveAssemblyReference.cache
+E:\Projects\REngine\XExtractor\obj\Debug\REngine.dll
+E:\Projects\REngine\XExtractor\obj\Debug\REngine.pdb
+E:\Projects\REngine\REngine\bin\Debug\Scripts\underscore-min.js
+E:\Projects\REngine\REngine\bin\Debug\REngine.dll
+E:\Projects\REngine\REngine\bin\Debug\REngine.pdb
+E:\Projects\REngine\REngine\bin\Debug\Noesis.Javascript.dll
+E:\Projects\REngine\REngine\obj\Debug\REngine.csprojResolveAssemblyReference.cache
+E:\Projects\REngine\REngine\obj\Debug\REngine.dll
+E:\Projects\REngine\REngine\obj\Debug\REngine.pdb

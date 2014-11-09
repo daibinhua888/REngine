@@ -1,0 +1,8 @@
+﻿#region discount group
+	rule default
+		return 0.6;
+	end rule
+	rule companyId-100
+		return 0.3;
+	end rule
+#endregion

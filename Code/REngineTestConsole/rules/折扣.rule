@@ -1,0 +1,19 @@
+﻿#region 折扣规则
+	rule default
+		return 1;
+	end rule
+	rule A公司
+		if(customerScore>=0&&customerScore<100)
+			return 1;
+		if(customerScore>=100&&customerScore<300)
+			return 0.8;
+		return 0.5;
+	end rule
+	rule B公司
+		if(customerScore>=0&&customerScore<100)
+			return 0.9;
+		if(customerScore>=100&&customerScore<300)
+			return 0.7;
+		return 0.6;
+	end rule
+#endregion

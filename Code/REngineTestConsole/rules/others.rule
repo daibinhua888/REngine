@@ -1,0 +1,25 @@
+﻿#region m1
+	rule default
+		return 0.1;
+	end rule
+	rule companyId-100
+		return 0.2;
+	end rule
+#endregion
+#region m2
+	rule default
+		return 0.3;
+	end rule
+	rule companyId-100
+		return 0.4;
+	end rule
+#endregion
+
+
+
+#region m3
+	rule default
+		return 0.36;
+	end rule
+#endregion
+

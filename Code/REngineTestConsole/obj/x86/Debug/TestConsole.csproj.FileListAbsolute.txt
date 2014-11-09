@@ -1,0 +1,10 @@
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\bin\Debug\TestConsole.exe.config
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\bin\Debug\Scripts\underscore-min.js
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\bin\Debug\TestConsole.exe
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\bin\Debug\TestConsole.pdb
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\bin\Debug\XExtractor.dll
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\bin\Debug\Noesis.Javascript.dll
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\bin\Debug\XExtractor.pdb
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\obj\x86\Debug\TestConsole.csprojResolveAssemblyReference.cache
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\obj\x86\Debug\TestConsole.exe
+E:\Projects\KXTX\Architecture\Projects\XExtractor\Source Code\Validation\XExtractor\TestConsole\obj\x86\Debug\TestConsole.pdb
