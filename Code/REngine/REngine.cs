@@ -26,6 +26,7 @@ namespace RuleEngine
                 throw new Exception("规则文件目录不存在");
 
             config.RulefilesPath = ConfigurationManager.AppSettings["REngine.RulefilesPath"];
+            config.RulefilesPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, config.RulefilesPath);
 
             LoadRules();
         }
