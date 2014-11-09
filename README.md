@@ -4,23 +4,23 @@ REngine
 Rule Engine
 
 AppSetting配置：<br />
-	<appSettings><br />
-		<add key="XExtractor.RulefilesPath" value="E:\rules"/><br />
-		<add key="XExtractor.ThrowExceptionIfNotfoundRule" value="1"/><br />
-	</appSettings><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;appSettings&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;add key="XExtractor.RulefilesPath" value="E:\rules"/&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;add key="XExtractor.ThrowExceptionIfNotfoundRule" value="1"/&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/appSettings&gt;<br />
 	<br />
 规则文件(*.rule)定义如下：<br />
-			#region 折扣规则<br />
-				rule default<br />
-					return 1;<br />
-				end rule<br />
-				rule A公司<br />
-					if(customerScore>=0&&customerScore<100)<br />
-						return 1;<br />
-					if(customerScore>=100&&customerScore<300)<br />
-						return 0.8;<br />
-					return 0.5;<br />
-				end rule<br />
+&nbsp;&nbsp;&nbsp;&nbsp;#region 折扣规则<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rule default<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end rule<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rule A公司<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(customerScore>=0&&customerScore<100)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(customerScore>=100&&customerScore<300)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 0.8;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 0.5;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end rule<br />
 				rule B公司<br />
 					if(customerScore>=0&&customerScore<100)<br />
 						return 0.9;<br />
