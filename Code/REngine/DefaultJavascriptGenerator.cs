@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace REngine
+namespace RuleEngine
 {
     internal class DefaultJavascriptGenerator : IJavascriptGenerator
     {

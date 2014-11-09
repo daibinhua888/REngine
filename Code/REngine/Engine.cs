@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Noesis.Javascript;
 
-namespace REngine
+namespace RuleEngine
 {
     internal static class Engine
     {

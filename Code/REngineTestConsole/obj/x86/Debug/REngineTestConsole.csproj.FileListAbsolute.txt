@@ -18,3 +18,13 @@ E:\Projects\REngine\REngineTestConsole\bin\Debug\REngine.dll
 E:\Projects\REngine\REngineTestConsole\bin\Debug\Noesis.Javascript.dll
 E:\Projects\REngine\REngineTestConsole\bin\Debug\REngine.pdb
 E:\Projects\REngine\REngineTestConsole\obj\x86\Debug\REngineTestConsole.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\Scripts\underscore-min.js
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\REngineTestConsole.exe.config
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\REngineTestConsole.exe
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\REngineTestConsole.pdb
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\RuleEngine.dll
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\Noesis.Javascript.dll
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\RuleEngine.pdb
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\obj\x86\Debug\REngineTestConsole.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\obj\x86\Debug\REngineTestConsole.exe
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\obj\x86\Debug\REngineTestConsole.pdb

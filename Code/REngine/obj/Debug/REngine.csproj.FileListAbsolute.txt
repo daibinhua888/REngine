@@ -12,3 +12,10 @@ E:\Projects\REngine\REngine\bin\Debug\Noesis.Javascript.dll
 E:\Projects\REngine\REngine\obj\Debug\REngine.csprojResolveAssemblyReference.cache
 E:\Projects\REngine\REngine\obj\Debug\REngine.dll
 E:\Projects\REngine\REngine\obj\Debug\REngine.pdb
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngine\bin\Debug\Scripts\underscore-min.js
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngine\bin\Debug\REngine.dll
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngine\bin\Debug\REngine.pdb
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngine\bin\Debug\Noesis.Javascript.dll
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngine\obj\Debug\REngine.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngine\obj\Debug\REngine.dll
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngine\obj\Debug\REngine.pdb

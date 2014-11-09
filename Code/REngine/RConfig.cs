@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using REngine.Parsers;
+using RuleEngine.Parsers;
 
-namespace REngine
+namespace RuleEngine
 {
-    internal class XConfig
+    internal class RConfig
     {
-        public XConfig()
+        public RConfig()
         {
             this.RuleDefinations = new Dictionary<string, RuleDefination>();
         }

@@ -5,8 +5,8 @@ Rule Engine
 
 AppSetting配置：<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;appSettings&gt;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;add key="XExtractor.RulefilesPath" value="E:\rules"/&gt;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;add key="XExtractor.ThrowExceptionIfNotfoundRule" value="1"/&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;add key="REngine.RulefilesPath" value="E:\rules"/&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;add key="REngine.ThrowExceptionIfNotfoundRule" value="1"/&gt;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/appSettings&gt;<br />
 	<br />
 规则文件(*.rule)定义如下：<br />
@@ -31,28 +31,28 @@ AppSetting配置：<br />
 &nbsp;&nbsp;&nbsp;&nbsp;#endregion<br />
 			<br />
 C#代码如下：<br />
-			XEngine.LoadSettings();<br />
+			REngine.LoadSettings();<br />
 			<br />
 			Console.WriteLine("折扣规则 - 简单使用");<br />
             {<br />
-                var result = XEngine.InvokeAsFloat("折扣规则", XEngine.CreateParameter("customerScore", 220));<br />
+                var result = REngine.InvokeAsFloat("折扣规则", REngine.CreateParameter("customerScore", 220));<br />
                 Console.WriteLine("         " + result);<br />
             }<br />
 			<br />
             Console.WriteLine("折扣规则 - 区分公司 - A公司");<br />
             {<br />
-                var result = XEngine.InvokeAsFloat("折扣规则", "A公司", XEngine.CreateParameter("customerScore", 220));<br />
+                var result = REngine.InvokeAsFloat("折扣规则", "A公司", REngine.CreateParameter("customerScore", 220));<br />
                 Console.WriteLine("         " + result);<br />
             }<br />
 			<br />
             Console.WriteLine("折扣规则 - 区分公司 - B公司");<br />
             {<br />
-                var result = XEngine.InvokeAsFloat("折扣规则", "B公司", XEngine.CreateParameter("customerScore", 220));<br />
+                var result = REngine.InvokeAsFloat("折扣规则", "B公司", REngine.CreateParameter("customerScore", 220));<br />
                 Console.WriteLine("         " + result);<br />
             }<br />
 			<br />
             Console.WriteLine("折扣规则 - 区分公司 - C公司");<br />
             {<br />
-                var result = XEngine.InvokeAsFloat("折扣规则", "C公司", XEngine.CreateParameter("customerScore", 220));<br />
+                var result = REngine.InvokeAsFloat("折扣规则", "C公司", REngine.CreateParameter("customerScore", 220));<br />
                 Console.WriteLine("         " + result);<br />
             }<br />

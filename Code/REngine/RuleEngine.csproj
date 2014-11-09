@@ -8,8 +8,8 @@
     <ProjectGuid>{42BAAC6A-6F97-4466-B687-48459227ECC3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>REngine</RootNamespace>
-    <AssemblyName>REngine</AssemblyName>
+    <RootNamespace>RuleEngine</RootNamespace>
+    <AssemblyName>RuleEngine</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
@@ -64,8 +64,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Parsers\RuleParser.cs" />
     <Compile Include="Parsers\RuleDefination.cs" />
-    <Compile Include="XConfig.cs" />
-    <Compile Include="XEngine.cs" />
+    <Compile Include="RConfig.cs" />
+    <Compile Include="REngine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\underscore-min.map" />

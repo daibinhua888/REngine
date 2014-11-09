@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace REngine.Parsers
+namespace RuleEngine.Parsers
 {
     internal class RuleRegion
     {

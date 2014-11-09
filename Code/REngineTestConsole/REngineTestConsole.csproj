@@ -63,9 +63,9 @@
     <None Include="rules\折扣.rule" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\REngine\REngine.csproj">
+    <ProjectReference Include="..\REngine\RuleEngine.csproj">
       <Project>{42BAAC6A-6F97-4466-B687-48459227ECC3}</Project>
-      <Name>REngine</Name>
+      <Name>RuleEngine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

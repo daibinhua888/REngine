@@ -3,29 +3,29 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Text;
-using REngine.Parsers;
+using RuleEngine.Parsers;
 
-namespace REngine
+namespace RuleEngine
 {
-    public static class XEngine
+    public static class REngine
     {
-        private static XConfig config;
+        private static RConfig config;
 
         public static void LoadSettings()
         {
-            config = new XConfig();
+            config = new RConfig();
             config.ThrowExceptionIfNotfoundRule = false;
 
-            if (ConfigurationManager.AppSettings["XExtractor.ThrowExceptionIfNotfoundRule"] != null)
-                config.ThrowExceptionIfNotfoundRule = Convert.ToString(ConfigurationManager.AppSettings["XExtractor.ThrowExceptionIfNotfoundRule"]) == "1";
+            if (ConfigurationManager.AppSettings["REngine.ThrowExceptionIfNotfoundRule"] != null)
+                config.ThrowExceptionIfNotfoundRule = Convert.ToString(ConfigurationManager.AppSettings["REngine.ThrowExceptionIfNotfoundRule"]) == "1";
 
-            if (ConfigurationManager.AppSettings["XExtractor.RulefilesPath"] == null)
-                throw new Exception("不存在XExtractor.RulefilesPath的key，在AppSetting中");
+            if (ConfigurationManager.AppSettings["REngine.RulefilesPath"] == null)
+                throw new Exception("不存在REngine.RulefilesPath的key，在AppSetting中");
 
-            if(!System.IO.Directory.Exists(ConfigurationManager.AppSettings["XExtractor.RulefilesPath"]))
+            if (!System.IO.Directory.Exists(ConfigurationManager.AppSettings["REngine.RulefilesPath"]))
                 throw new Exception("规则文件目录不存在");
 
-            config.RulefilesPath = ConfigurationManager.AppSettings["XExtractor.RulefilesPath"];
+            config.RulefilesPath = ConfigurationManager.AppSettings["REngine.RulefilesPath"];
 
             LoadRules();
         }
