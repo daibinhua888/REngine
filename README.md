@@ -3,13 +3,12 @@ REngine
 
 Rule Engine
 
-AppSetting配置：<br />
-<code>
+AppSetting配置：
 	<appSettings>
 		<add key="XExtractor.RulefilesPath" value="E:\rules"/>
 		<!--<add key="XExtractor.ThrowExceptionIfNotfoundRule" value="1"/>-->
 	</appSettings>
-</code>
+
 规则文件(*.rule)定义如下：
 			#region 折扣规则
 				rule default
