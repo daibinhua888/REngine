@@ -22,11 +22,11 @@ namespace RuleEngine
             if (ConfigurationManager.AppSettings["REngine.RulefilesPath"] == null)
                 throw new Exception("不存在REngine.RulefilesPath的key，在AppSetting中");
 
-            if (!System.IO.Directory.Exists(ConfigurationManager.AppSettings["REngine.RulefilesPath"]))
-                throw new Exception("规则文件目录不存在");
-
             config.RulefilesPath = ConfigurationManager.AppSettings["REngine.RulefilesPath"];
             config.RulefilesPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, config.RulefilesPath);
+
+            if (!System.IO.Directory.Exists(config.RulefilesPath))
+                throw new Exception("规则文件目录不存在");
 
             LoadRules();
         }

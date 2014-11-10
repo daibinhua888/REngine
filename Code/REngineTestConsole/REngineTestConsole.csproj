@@ -57,10 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="rules\discount.rule" />
-    <None Include="rules\sales.rule" />
-    <None Include="rules\others.rule" />
-    <None Include="rules\折扣.rule" />
+    <None Include="rules\discount.rule">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="rules\sales.rule">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="rules\others.rule">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="rules\折扣.rule">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\REngine\RuleEngine.csproj">
