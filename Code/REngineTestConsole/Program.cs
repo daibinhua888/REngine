@@ -10,8 +10,6 @@ namespace REngineTestConsole
     {
         static void Main(string[] args)
         {
-            REngine.LoadSettings();//load文件、设置如没有找到具体rule，是否报错
-
             Console.WriteLine("sales");
             {
                 float result = REngine.InvokeAsFloat("sales", string.Format("companyId-{0}", 100));

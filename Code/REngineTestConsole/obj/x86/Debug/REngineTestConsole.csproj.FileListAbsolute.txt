@@ -42,3 +42,7 @@ C:\Users\kxtx-xxtwo\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\r
 C:\Users\kxtx-xxtwo\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\rules\sales.rule
 C:\Users\kxtx-xxtwo\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\rules\others.rule
 C:\Users\kxtx-xxtwo\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\rules\折扣.rule
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\rules\discount.rule
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\rules\sales.rule
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\rules\others.rule
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngineTestConsole\bin\Debug\rules\折扣.rule

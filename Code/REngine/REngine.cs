@@ -11,7 +11,12 @@ namespace RuleEngine
     {
         private static RConfig config;
 
-        public static void LoadSettings()
+        static REngine()
+        {
+            LoadSettings();
+        }
+
+        private static void LoadSettings()
         {
             config = new RConfig();
             config.ThrowExceptionIfNotfoundRule = false;

@@ -10,3 +10,4 @@ C:\Users\kxtx-xxtwo\Documents\GitHub\REngine\Code\REngine\bin\Debug\RuleEngine.p
 C:\Users\kxtx-xxtwo\Documents\GitHub\REngine\Code\REngine\bin\Debug\Noesis.Javascript.dll
 C:\Users\kxtx-xxtwo\Documents\GitHub\REngine\Code\REngine\obj\Debug\RuleEngine.dll
 C:\Users\kxtx-xxtwo\Documents\GitHub\REngine\Code\REngine\obj\Debug\RuleEngine.pdb
+C:\Users\Administrator\Documents\GitHub\REngine\Code\REngine\obj\Debug\RuleEngine.csprojResolveAssemblyReference.cache
