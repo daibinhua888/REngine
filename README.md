@@ -31,7 +31,6 @@ AppSetting配置：<br />
 &nbsp;&nbsp;&nbsp;&nbsp;#endregion<br />
 			<br />
 C#代码如下：<br />
-			REngine.LoadSettings();<br />
 			<br />
 			Console.WriteLine("折扣规则 - 简单使用");<br />
             {<br />
